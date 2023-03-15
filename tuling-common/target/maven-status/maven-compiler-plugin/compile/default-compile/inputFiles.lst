@@ -1,0 +1,16 @@
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/service/RedisService.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/api/IErrorCode.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/api/CommonResult.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/domain/UmsMember.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/domain/SwaggerProperties.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/exception/BusinessException.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/exception/GlobalExceptionHandler.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/exception/Asserts.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/api/CommonPage.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/service/impl/RedisServiceImpl.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/exception/ApiException.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/util/JwtTokenUtil.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/config/BaseRedisConfig.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/util/ComConstants.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/config/BaseSwaggerConfig.java
+/Users/wgs/Public/WGS_code/java_project/JavaWeb/商城资料/代码/前、后端代码/2、徐庶老师版/tuling-single-mall/tuling-common/src/main/java/com/tulingxueyuan/mall/common/api/ResultCode.java

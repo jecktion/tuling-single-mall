@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tulingxueyuan.mall.modules.sms.mapper.SmsFlashPromotionSessionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tulingxueyuan.mall.modules.sms.model.SmsFlashPromotionSession">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="start_time" property="startTime" />
+        <result column="end_time" property="endTime" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        delete from sms_flash_promotion_session
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+    <insert id="insertOne" parameterType="com.tulingxueyuan.mall.modules.sms.model.SmsFlashPromotionSession">
+        <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+
+        insert into
+        sms_flash_promotion_session (name, start_time, end_time,
+        status, create_time)
+        values
+        (#{name,jdbcType=VARCHAR}, #{startTime,jdbcType=TIME}, #{endTime,jdbcType=TIME},
+        #{status,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP})
+    </insert>
+
+    <update id="updateByPrimaryKey" parameterType="com.tulingxueyuan.mall.modules.sms.model.SmsFlashPromotionSession">
+        update
+            sms_flash_promotion_session
+        set
+            name = #{name,jdbcType=VARCHAR},
+            start_time = #{startTime,jdbcType=TIME},
+            end_time = #{endTime,jdbcType=TIME},
+            status = #{status,jdbcType=INTEGER},
+            create_time = #{createTime,jdbcType=TIMESTAMP}
+        where
+              id = #{id,jdbcType=BIGINT}
+    </update>
+
+</mapper>
